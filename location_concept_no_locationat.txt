@@ -1,0 +1,1203 @@
+賭場
+
+	賭場/r/TranslationOfcasino
+	賭場/r/HasSubevent玩一把
+	賭場/r/HasSubevent賭錢
+	賭場/r/HasSubevent下注
+	賭場/r/Desires學生
+	住宅區/r/Desires賭場
+俱樂部
+
+	俱樂部/r/TranslationOfclub
+	俱樂部/r/TranslationOfgroup
+	俱樂部/r/TranslationOforganisation
+古蹟
+
+	古蹟/r/IsA地標
+	古蹟/r/CausesDesire愛護
+	陵墓/r/PartOf古蹟
+	古蹟/r/HasSubevent世界上
+	博物館/r/MadeOf古蹟
+電影院
+
+	電影院/r/HasSubevent看電影
+	電影院/r/HasSubevent吃爆米花
+	電影院/r/HasSubevent睡覺
+	電影院/r/HasSubevent喝飲料
+	電影院/r/HasSubevent關手機
+	電影院/r/HasSubevent喝可樂
+	電影院/r/IsA地標
+	電影院/r/CapableOf看電影
+	電影院/r/CapableOf吃爆米花
+	電影院/r/HasSubevent影
+	螢幕/r/PartOf電影院
+	電影院/r/HasSubevent看
+	電影院/r/HasSubevent電
+	電影院/r/HasSubevent聊天
+	電影院/r/HasSubevent吃零食
+	電影院/r/TranslationOfcinema
+	電影院/r/CapableOf放閃光
+	電影院/r/HasSubevent隨電影起伏
+博物館
+
+	博物館/r/IsA地標
+音樂廳
+
+戲院
+
+體育館
+
+	體育館/r/HasSubevent打球
+	體育館/r/HasSubevent跑步
+	體育館/r/HasSubevent運動
+	體育館/r/HasSubevent重訓
+	體育館/r/HasSubevent打網球
+	體育館/r/HasSubevent打藍球
+	體育館/r/HasSubevent打羽毛球
+	體育館/r/HasSubevent打桌球
+	體育館/r/HasSubevent看人打球
+	體育館/r/HasSubevent打羽球
+動物園
+
+水族館
+
+大學
+
+	大學生/r/Desires考試
+	大學/r/MadeOf學生
+	大學/r/Desires學生
+	大學/r/SymbolOf讀四年
+	文化/r/IsA大學
+	大學/r/SymbolOf玩四年
+	大學/r/CapableOf夜衝
+	大學/r/PartOf人生
+	國立嘉義大學/r/MadeOf大學
+	讀書/r/MotivatedByGoal大學
+	大學/r/IsA學校
+	大學/r/IsA地標
+	大學生/r/Desires被當
+	大學/r/TranslationOfcollege
+	大學/r/TranslationOfuniversity
+	大學/r/TranslationOfgreat learn
+	大學生/r/Desires二一
+	大學/r/HasFirstSubevent交學費
+	大學/r/HasSubevent玩社團
+	大學/r/MadeOf教授
+	大學/r/HasSubevent夜衝
+	中興/r/MadeOf大學
+	大學/r/Desires畢業
+	大學/r/CausesDesire翹課
+	大學/r/MadeOf系
+	愛情/r/PartOf大學
+	大學/r/Desires延畢
+	大學/r/IsA教育
+	台大/r/PartOf大學
+	大學/r/MadeOf研究室
+	大學/r/MadeOf磚瓦
+書店
+
+	書店/r/HasSubevent看書
+	書店/r/HasSubevent買書
+	書店/r/IsA地標
+	書店/r/Causes愛書者
+	書店/r/TranslationOfbookshop
+	書店/r/TranslationOfbookstore
+	書店/r/Desires美工刀
+	書店/r/Causes書香
+	書店/r/Causes知識的力量
+	書店/r/CausesDesire讀書
+	書店/r/HasSubevent挑書
+	金石堂/r/MadeOf書店
+餐廳
+
+	餐廳/r/HasSubevent吃飯
+	餐廳/r/HasSubevent點餐
+	餐廳/r/HasSubevent吃東西
+	餐廳/r/HasSubevent點菜
+	餐廳/r/Desires老鼠
+	菜單/r/PartOf餐廳
+	餐廳/r/HasSubevent聊天
+	餐廳/r/HasSubevent喝飲料
+	桌子/r/PartOf餐廳
+	餐廳/r/CapableOf吃飯
+	餐廳/r/HasSubevent吃麵
+	餐廳/r/HasSubevent喝水
+	桌巾/r/PartOf餐廳
+	餐廳/r/HasSubevent付帳
+	餐廳/r/HasSubevent用餐
+教室
+
+	教室/r/HasSubevent看書
+	教室/r/HasSubevent上課
+	學校/r/MadeOf教室
+	教室/r/HasSubevent讀書
+	教室/r/HasSubevent睡覺
+	教室/r/HasSubevent唸書
+	教室/r/HasSubevent考試
+	教室/r/HasSubevent聊天
+	桌子/r/PartOf教室
+	教室/r/HasSubevent發呆
+	教室/r/HasSubevent打瞌睡
+	教室/r/HasSubevent聽課
+	教室/r/HasSubevent學習
+宿舍
+
+	宿舍/r/HasSubevent睡覺
+	宿舍/r/HasSubevent看電視
+	宿舍/r/HasSubevent玩電腦
+	宿舍/r/HasSubevent洗澡
+	宿舍/r/HasSubevent上網
+	宿舍/r/HasSubevent唱歌
+	宿舍/r/HasSubevent看書
+	宿舍/r/CapableOf有室友
+	宿舍/r/HasSubevent打魔獸
+	宿舍/r/HasSubevent吃東西
+	成功大學/r/MadeOf宿舍
+	宿舍/r/HasSubevent打b
+	宿舍/r/HasSubevent聊天
+	宿舍/r/TranslationOfdormitory
+	農舍/r/IsA宿舍
+	宿舍/r/IsA逃家的匿處
+	宿舍/r/MadeOf磚頭
+	宿舍/r/CapableOf有書桌
+健身房
+
+	跑步機/r/PartOf健身房
+	健身房/r/UsedFor運動
+	健身房/r/UsedFor健身
+	健身房/r/TranslationOfgym
+	健身房/r/HasSubevent跑步
+	健身房/r/HasSubevent健身
+	健身房/r/UsedFor減肥
+	健身房/r/Causes運動
+	健身房/r/HasSubevent運動
+	健身房/r/HasSubevent舉啞鈴
+	健身房/r/HasSubevent舉重
+實驗室
+
+	小白鼠/r/Desires實驗室
+	老師/r/Desires實驗室
+	學生/r/Desires實驗室
+	實驗室/r/HasSubevent做實驗
+	科學怪人/r/Desires實驗室
+	小朋友/r/Desires實驗室
+	實驗室/r/TranslationOflaboratory
+	實驗室/r/TranslationOflab
+	實驗室/r/HasSubevent生氣
+	實驗室/r/HasSubevent思考
+	實驗室/r/HasSubevent嚴肅
+	實驗室/r/HasSubevent穿實驗衣
+	實驗室/r/HasSubevent戴護目鏡
+	實驗室/r/HasSubevent吹冷氣
+圖書館
+
+	圖書館/r/HasSubevent看書
+	圖書館/r/HasSubevent讀書
+	圖書館/r/HasSubevent找書
+	圖書館/r/HasSubevent借書
+	圖書館/r/IsA地標
+	圖書館/r/HasSubevent查資料
+	圖書館/r/HasSubevent安靜
+	圖書館/r/HasSubevent還書
+	圖書館/r/Causes愛書者
+	書/r/PartOf圖書館
+	圖書館/r/HasSubevent睡覺
+	圖書館/r/HasSubevent看小說
+	圖書館/r/UsedFor查資料
+	圖書館/r/HasSubevent看雜誌
+	圖書館/r/Causes看書
+體育館
+
+	體育館/r/HasSubevent打球
+	體育館/r/HasSubevent跑步
+	體育館/r/HasSubevent運動
+	體育館/r/HasSubevent重訓
+	體育館/r/HasSubevent打藍球
+	體育館/r/HasSubevent打網球
+	體育館/r/HasSubevent打羽毛球
+	體育館/r/HasSubevent打桌球
+	體育館/r/HasSubevent看人打球
+	體育館/r/HasSubevent打羽球
+棒球場
+
+	棒球場/r/HasSubevent看球賽
+	棒球場/r/HasSubevent尖叫
+	壘包/r/PartOf棒球場
+	棒球場/r/HasSubevent吃熱狗
+	棒球場/r/UsedFor打棒球
+	棒球場/r/HasSubevent吃東西
+	棒球場/r/HasSubevent大叫
+	棒球場/r/CapableOf跑步
+	棒球場/r/Causes邊際效益
+	棒球場/r/HasSubevent看比賽
+	棒球場/r/CapableOf把妹
+	棒球場/r/HasSubevent打棒球
+	棒球場/r/HasSubevent打擊
+籃球場
+
+	籃球場/r/PartOf比賽
+	籃球場/r/UsedFor打籃球
+	籃球場/r/UsedFor去操場
+	籃球場/r/PartOf操場
+	籃球場/r/PartOf回憶
+	籃球場/r/PartOf競賽
+	籃球場/r/HasSubevent投籃
+	籃球場/r/PartOf運動
+	籃球場/r/HasSubevent練進攻
+	籃球場/r/PartOf球場
+	籃球場/r/HasSubevent折反跑
+	籃球場/r/HasSubevent運球
+	籃球場/r/HasSubevent傳球
+	籃球場/r/HasSubevent防守
+	籃球場/r/IsA地標
+	籃球場/r/PartOf人生
+	籃球場/r/PartOf球員
+	籃球場/r/PartOf體育館
+	籃球場/r/PartOf運動場
+	籃球場/r/PartOf球員生活
+	籃球場/r/PartOf學生生活
+足球場
+
+	足球場/r/HasSubevent看球
+網球場
+
+	網球場/r/UsedFor打網球
+	網子/r/PartOf網球場
+	網球場/r/UsedFor去操場
+	網球場/r/PartOf校園
+	網球拍/r/PartOf網球場
+	網球場/r/PartOf學校
+	網球場/r/PartOf網球練習
+	網球場/r/PartOf網球王子
+戲院
+
+餐廳
+
+	餐廳/r/HasSubevent吃飯
+	餐廳/r/HasSubevent點餐
+	餐廳/r/HasSubevent點菜
+	餐廳/r/HasSubevent吃東西
+	餐廳/r/Desires老鼠
+	菜單/r/PartOf餐廳
+	餐廳/r/HasSubevent聊天
+	餐廳/r/HasSubevent喝飲料
+	桌子/r/PartOf餐廳
+	餐廳/r/CapableOf吃飯
+	餐廳/r/HasSubevent喝水
+	桌巾/r/PartOf餐廳
+	餐廳/r/HasSubevent喝湯
+	餐廳/r/Causes吃飯
+	餐廳/r/HasSubevent吃麵
+麵包店
+
+	蛋塔/r/PartOf麵包店
+	麵包店/r/IsA連鎖店
+早餐店
+
+	地標/r/HasSubevent早餐店
+酒廠
+
+速食店
+
+	麥當勞/r/IsA速食店
+	速食店/r/IsA連鎖店
+	速食店/r/IsA地標
+	速食店/r/HasSubevent丹丹漢堡
+咖啡廳
+
+	咖啡廳/r/TranslationOfcafe
+	咖啡廳/r/Causes登光美
+	咖啡廳/r/Causes氣氛佳
+	咖啡廳/r/Causes喝咖啡
+	咖啡廳/r/Causes愛情
+蛋糕店
+
+	蛋糕店/r/Causes蛋糕
+	蛋糕店老闆/r/Desires沒人訂蛋糕
+	蛋糕店老闆/r/Desires客人變少
+	蛋糕店老闆/r/Desires蛋糕壞掉
+	蛋糕店老闆/r/Desires沒顧客
+	蛋糕店老闆/r/Desires原料漲價
+美食街
+
+	美食街/r/TranslationOffood court
+	夜市/r/IsA美食街
+冰淇淋店
+
+	冰淇淋店/r/HasSubevent吃冰
+	冰淇淋店/r/HasSubevent聊天
+	冰淇淋店/r/HasSubevent看路人
+飲料店
+
+	飲料店/r/IsA連鎖店
+	飲料店/r/PartOf互給互足
+	飲料店/r/Desires夏天
+	瑪奇/r/IsA飲料店
+	飲料店/r/MadeOf糖水
+	飲料店/r/PartOf商業
+	飲料店/r/MadeOf水
+	飲料店/r/MadeOf賀眾牌的水
+	飲料店/r/CapableOf賺錢
+	飲料店/r/HasSubevent喝可樂
+	飲料店/r/HasSubevent喝奶茶
+	飲料店/r/PartOf社區生活
+	飲料店/r/Causes可可
+	飲料店/r/MadeOf冰塊
+小吃店
+
+	小吃店/r/HasSubevent呼吸
+	小吃店/r/HasSubevent吃
+	小吃店/r/HasSubevent結帳
+	小吃店/r/MotivatedByGoal去找食物
+	小吃店/r/HasSubevent吃小吃
+	小吃店/r/HasSubevent點菜
+	小吃店/r/HasSubevent滷肉飯
+	小吃店/r/Desires老鼠
+	小吃店/r/HasSubevent借廁所
+麵店
+
+	麵店/r/HasSubevent吃麵
+	麵店/r/HasSubevent等到不耐煩
+	麵店/r/HasSubevent付錢
+	麵店/r/HasSubevent加辣
+	麵店/r/HasSubevent想吃牛肉麵
+	麵店/r/HasSubevent喝飲料
+	麵店/r/HasSubevent想吃餛飩麵
+	麵店/r/HasSubevent吃魯味
+	麵店/r/HasSubevent點一桌好菜
+	麵店/r/HasSubevent聊天
+	麵店/r/HasSubevent吃湯麵
+	麵店/r/HasSubevent加酢菜
+	麵店/r/HasSubevent點小菜
+	麵店/r/HasSubevent想吃麵
+棒球場
+
+	棒球場/r/HasSubevent看球賽
+	棒球場/r/HasSubevent尖叫
+	壘包/r/PartOf棒球場
+	棒球場/r/HasSubevent吃熱狗
+	棒球場/r/UsedFor打棒球
+	棒球場/r/HasSubevent吃東西
+	棒球場/r/HasSubevent大叫
+	棒球場/r/CapableOf跑步
+	棒球場/r/Causes邊際效益
+	棒球場/r/HasSubevent看比賽
+	棒球場/r/CapableOf把妹
+	棒球場/r/HasSubevent打棒球
+	棒球場/r/HasSubevent打擊
+籃球場
+
+	籃球場/r/PartOf比賽
+	籃球場/r/UsedFor打籃球
+	籃球場/r/UsedFor去操場
+	籃球場/r/PartOf操場
+	籃球場/r/PartOf回憶
+	籃球場/r/PartOf競賽
+	籃球場/r/HasSubevent投籃
+	籃球場/r/PartOf運動
+	籃球場/r/PartOf球場
+	籃球場/r/HasSubevent折反跑
+	籃球場/r/HasSubevent運球
+	籃球場/r/HasSubevent傳球
+	籃球場/r/HasSubevent防守
+	籃球場/r/HasSubevent練進攻
+	籃球場/r/IsA地標
+	籃球場/r/PartOf人生
+	籃球場/r/PartOf球員
+	籃球場/r/PartOf體育館
+	籃球場/r/PartOf運動場
+	籃球場/r/PartOf球員生活
+	籃球場/r/PartOf學生生活
+海灘
+
+	海灘/r/TranslationOfbeach
+	海灘/r/IsA風景
+	海灘/r/CausesDesire曬太陽
+	夏威夷/r/CausesDesire海灘
+	海灘/r/CausesDesire游泳
+	海灘/r/CausesDesire夏天
+	海灘/r/Causes比基尼
+	夏威夷/r/CausesDesire海灘褲
+	夾腳拖鞋/r/PartOf海灘男孩
+橋
+
+	橋/r/IsA地標
+	橋/r/MadeOf鐵
+	橋/r/MadeOf水泥
+	橋/r/MadeOf梯
+	橋/r/MadeOf木頭
+	橋/r/MadeOf鋼筋
+	橋樑/r/IsA地標
+	地震/r/Causes橋斷
+	橋樑/r/TranslationOfbridge
+	地震/r/Causes橋斷了
+	大地震/r/Causes橋斷
+營地
+
+墓地
+
+	墓地/r/UsedFor死亡
+	墓地裡的人/r/IsA死人
+農場
+
+	農場/r/CapableOf養牛
+	農場/r/TranslationOffarm
+	農場/r/CapableOf養小雞
+	農場/r/CausesDesire玩facebook
+	農場/r/CapableOf有牛
+	農場/r/CapableOf有大草原
+	農場/r/CapableOf有公雞
+	農場/r/CapableOf有牧草
+	農場/r/CapableOf有羊
+	農場/r/UsedFor玩facebook
+	農場/r/CapableOf有馬兒
+	農場/r/CapableOf有馬
+	農場/r/CapableOf龜裂
+	農場/r/CapableOf有農地
+	農場/r/CapableOf有牛大便
+	農場/r/CapableOf養豬
+花園
+
+	花園/r/MadeOf花
+	花園/r/MadeOf花朵
+	花園/r/HasSubevent賞月
+	花園/r/HasSubevent聊天
+	花園/r/TranslationOfgarden
+	花園/r/MadeOf許多花
+	空地/r/Causes花園
+	花園/r/HasSubevent開心
+	花園/r/Causes快樂一整天
+	花園/r/MadeOf花兒
+	菊花/r/PartOf花園
+	花園/r/Causes神清氣爽
+	花園/r/MadeOf率草
+高爾夫球場
+
+	高爾夫球場/r/PartOf運動場所
+	高爾夫球場/r/PartOf台灣
+	高爾夫球場/r/PartOf土石流
+	高爾夫球場/r/Causes邊際效益
+	高爾夫球場/r/UsedFor打高爾夫球
+	草地/r/PartOf高爾夫球場
+港口
+
+溫泉
+
+	洗澡/r/HasSubevent溫泉
+	溫泉/r/TranslationOfhot spring
+	溫泉/r/TranslationOfspa
+	溫泉/r/TranslationOfonsen
+	溫泉/r/MadeOf水
+	溫泉/r/CausesDesire泡澡
+	溫泉/r/MadeOf溫泉粉
+	溫泉/r/UsedFor做spa
+	溫泉/r/Causes喝溫開水
+	溫泉/r/UsedFor很舒服
+	溫泉/r/MadeOf礦物質
+	洗澡水/r/MadeOf溫泉水
+	溫泉粉/r/UsedFor洗澡
+	溫泉粉/r/UsedFor泡澡
+	抽獎/r/MotivatedByGoal溫泉券
+	溫泉旅館/r/Causes泡溫泉
+	快樂/r/MotivatedByGoal溫泉券
+	知本/r/IsA溫泉區
+	泡湯/r/MotivatedByGoal溫泉券
+	溫泉蛋/r/Desires泡溫泉
+	買/r/MotivatedByGoal溫泉券
+	花錢/r/MotivatedByGoal溫泉券
+湖
+
+	湖/r/IsA地標
+	湖/r/TranslationOflake
+	水/r/MadeOf湖
+	養家/r/MotivatedByGoal湖口
+	湖光山色/r/MadeOf想像
+	很多水/r/PartOf湖泊
+	湖海/r/TranslationOflake and ocean
+	湖海/r/TranslationOfacross land
+	湖海/r/TranslationOfeverywhere
+	湖泊/r/TranslationOflake
+	湖北/r/TranslationOfhubei
+	天湖/r/IsA湖畔
+	水/r/PartOf湖泊
+公園
+
+	公園/r/IsA地標
+	公園/r/HasSubevent散步
+	公園/r/HasSubevent慢跑
+	公園/r/HasSubevent溜滑梯
+遊樂場
+
+	動物園/r/PartOf遊樂場
+	遊樂場/r/TranslationOfamusement park
+	遊樂場/r/HasSubevent玩
+	遊樂場/r/HasSubevent很開心
+	遊樂場/r/Causes快樂
+	遊樂場/r/Causes回憶
+	遊樂場/r/Causes很high
+	遊樂場/r/Causes狠開心
+	遊樂場/r/HasSubevent花錢
+	遊樂場/r/Causes玩得很累
+廣場
+
+	廣場/r/TranslationOfsquare
+足球場
+
+	足球場/r/HasSubevent看球
+網球場
+
+	網球場/r/UsedFor去操場
+	網球場/r/PartOf學校
+	網球場/r/PartOf網球王子
+	網球拍/r/PartOf網球場
+	網子/r/PartOf網球場
+	網球場/r/PartOf網球練習
+	網球場/r/PartOf校園
+	網球場/r/UsedFor打網球
+酒吧
+
+	酒吧/r/TranslationOfbar
+	酒吧/r/TranslationOfpub
+	酒吧/r/HasSubevent喝酒
+	酒吧/r/Desires學生
+	酒吧/r/Causes正妹
+	酒吧/r/CapableOf喝酒
+	酒吧/r/HasSubevent花錢
+	酒吧/r/HasSubevent吃東西
+	酒吧/r/HasSubevent跳舞
+	沙發/r/PartOf酒吧
+卡拉ok
+
+	胖虎/r/Desires卡拉ok壞掉
+夜總會
+
+	夜總會/r/TranslationOfnightclub
+	住宅區/r/Desires夜總會
+夜店
+
+	夜店/r/HasSubevent跳舞
+	夜店/r/HasSubevent喝酒
+	夜店/r/HasSubevent聊天
+	夜店/r/HasSubevent把妹
+	夜店/r/Causes想跳舞
+	夜店/r/CapableOf上猛男
+	夜店/r/CapableOf跳舞
+	夜店/r/CausesDesire跳舞
+	夜店/r/MadeOf台妹
+	夜店/r/IsA場所
+	夜店/r/HasSubevent找女孩搭訕
+	夜店/r/HasSubevent快樂
+	夜店/r/Desires學生
+	夜店/r/Causes辣妹
+	小姐/r/Desires夜店
+	納豆/r/Desires夜店
+	夜店/r/IsA喝酒的地方
+	夜店/r/MadeOf台客
+	夜店/r/Causes正妹
+	夜店/r/CapableOf喝酒
+酒吧
+
+	酒吧/r/TranslationOfbar
+	酒吧/r/TranslationOfpub
+	酒吧/r/HasSubevent喝酒
+	酒吧/r/Desires學生
+	酒吧/r/Causes正妹
+	酒吧/r/CapableOf喝酒
+	酒吧/r/HasSubevent花錢
+	酒吧/r/HasSubevent吃東西
+	酒吧/r/HasSubevent跳舞
+	沙發/r/PartOf酒吧
+夜總會
+
+	夜總會/r/TranslationOfnightclub
+	住宅區/r/Desires夜總會
+動物收容所
+
+公寓
+
+	公寓/r/IsA房子
+	公寓/r/TranslationOfapartment
+	公寓/r/TranslationOfflat
+	公寓/r/IsA住所
+	公寓/r/IsA屋子
+	公寓/r/MadeOf石頭
+	公寓/r/MadeOf磚石
+	公寓/r/MadeOf磚
+	滅火器/r/PartOf公寓
+	廁所/r/PartOf公寓
+	公寓/r/PartOf居住
+	公寓/r/IsA房屋
+	公寓/r/IsA建築物
+	公寓/r/IsA大樓
+	公寓/r/MadeOf鋼鐵
+大廈
+
+	大廈/r/TranslationOfmansion
+	大廈/r/IsA地標
+	大廈/r/MadeOf鋼鐵
+會議中心
+
+	會議中心/r/PartOf公司
+	會議中心/r/PartOf台塑
+	會議中心/r/PartOf鴻海
+會議室
+
+活動中心
+
+	活動中心/r/IsA社教館
+消防局
+
+	消防局/r/IsA地標
+警察局
+
+	警察局/r/IsA地標
+	警察局/r/IsA公家機關
+	警察局/r/UsedFor找人
+	警察局/r/TranslationOfpolice station
+	警察局/r/HasSubevent借廁所
+	警察局/r/HasSubevent做筆錄
+	警察局/r/MadeOf警察
+圖書館
+
+	圖書館/r/HasSubevent看書
+	圖書館/r/HasSubevent讀書
+	圖書館/r/HasSubevent找書
+	圖書館/r/HasSubevent借書
+	圖書館/r/IsA地標
+	圖書館/r/HasSubevent查資料
+	圖書館/r/HasSubevent安靜
+	圖書館/r/HasSubevent還書
+	圖書館/r/Causes愛書者
+	書/r/PartOf圖書館
+	圖書館/r/HasSubevent睡覺
+	圖書館/r/UsedFor查資料
+	圖書館/r/HasSubevent看雜誌
+	圖書館/r/HasSubevent看小說
+	圖書館/r/Causes看書
+醫院
+
+	醫院/r/IsA地標
+	白色/r/SymbolOf醫院
+	醫院/r/HasSubevent看醫生
+	醫院/r/UsedFor生病
+	醫院/r/Desires藥師
+	醫院/r/Desires病人
+	醫院/r/MadeOf醫生
+	醫院/r/MadeOf病人
+	醫院/r/Desires醫生
+	醫院/r/MadeOf護士
+	醫院/r/Causes恐慌
+	醫院/r/IsA地方
+	高醫/r/IsA醫院
+	病人/r/Desires醫院
+急診室
+
+	急診室/r/UsedFor受傷
+	急診室/r/Desires重症病患
+醫院
+
+	醫院/r/IsA地標
+	白色/r/SymbolOf醫院
+	醫院/r/HasSubevent看醫生
+	醫院/r/UsedFor生病
+	醫院/r/Desires藥師
+	醫院/r/MadeOf病人
+	醫院/r/Desires醫生
+	醫院/r/MadeOf護士
+	醫院/r/Desires病人
+	醫院/r/MadeOf醫生
+	醫院/r/Causes恐慌
+	醫院/r/IsA地方
+	高醫/r/IsA醫院
+	病人/r/Desires醫院
+眼鏡店
+
+獸醫
+
+	養狗/r/Causes獸醫
+	獸醫/r/CapableOf打針
+	狗狗/r/Desires獸醫
+	獸醫/r/Desires生病
+	獸醫/r/Desires死亡
+	獸醫/r/Desires打針
+	獸醫/r/Desires貓
+	獸醫/r/Desires白目者
+	幫寵物結紮/r/HasProperty獸醫
+辦公室
+
+	辦公室/r/HasSubevent工作
+	辦公室/r/HasSubevent辦公
+	辦公室/r/HasSubevent上網
+	辦公室/r/HasSubevent偷懶
+	辦公室/r/TranslationOfoffice
+	辦公室/r/HasSubevent接訂單
+咖啡廳
+
+	咖啡廳/r/TranslationOfcafe
+	咖啡廳/r/Causes登光美
+	咖啡廳/r/Causes氣氛佳
+	咖啡廳/r/Causes喝咖啡
+	咖啡廳/r/Causes愛情
+停車場
+
+	停車場/r/TranslationOfcar park
+	停車場/r/TranslationOfpark lot
+	汽車/r/PartOf停車場
+	停車場/r/Causes要停車的人
+郵局
+
+	郵局/r/IsA地標
+	郵差/r/PartOf郵局
+	綠色/r/SymbolOf郵局
+	郵局/r/HasSubevent寄信
+	郵局/r/HasSubevent買郵票
+	郵局/r/PartOf公家機關
+	郵局/r/TranslationOfpost office
+	郵局/r/HasSubevent存錢
+	郵局/r/HasSubevent劃撥
+	郵局/r/IsA公庫
+	郵局/r/CapableOf送信
+	郵局/r/PartOf政府
+	郵局/r/HasSubevent排隊
+	郵局/r/MotivatedByGoal耽美小說
+	郵局/r/HasSubevent匯錢
+	提款卡/r/PartOf郵局
+	郵局/r/PartOf郵政
+	郵局/r/CapableOf存錢
+	郵局/r/UsedFor存錢
+教堂
+
+	教堂/r/IsA地標
+	教堂/r/HasSubevent祈禱
+	教堂/r/HasSubevent禱告
+	教堂/r/HasSubevent唱聖歌
+	教堂/r/HasSubevent告解
+	教堂/r/HasSubevent讀聖經
+	教堂/r/TranslationOfchurch
+	教堂/r/HasSubevent打瞌睡
+	教堂/r/HasSubevent結婚
+	教堂/r/HasSubevent發呆
+	教堂/r/HasSubevent禮拜
+	教堂/r/HasSubevent睡覺
+	教堂/r/HasSubevent聽牧師講話
+清真寺
+
+	清真寺/r/TranslationOfmosque
+廟
+
+	廟/r/IsA地標
+	鬼/r/Desires廟
+	廟宇/r/IsA地標
+	廟會/r/Causes敲鑼打鼓
+	廟會/r/HasSubevent拜拜
+	廟堂/r/TranslationOfancestral temple
+	廟堂/r/TranslationOfimperial court
+	廟會/r/HasSubevent到處逛
+	廟會/r/HasSubevent放鞭炮
+	廟會/r/Causes浴衣
+	廟宇/r/HasSubevent祈求
+	廟會/r/Causes錢錢錢錢
+	鬼/r/Desires廟宇
+	文昌祠/r/IsA廟宇
+	城隍廟口/r/IsA廟口
+	廟會/r/Causes熱鬧
+	廟會/r/HasSubevent燒紙錢
+	廟會/r/HasSubevent到處玩
+	孔廟/r/IsA廟宇
+	廟會/r/HasSubevent盡情的玩
+	廟會/r/IsA台灣本土
+	王爺廟口/r/IsA廟口
+	安平廟口/r/IsA廟口
+	廟宇/r/HasSubevent燒香
+	廟會/r/Causes祭典
+	香爐/r/PartOf廟宇
+	陣頭/r/PartOf廟宇
+	廟會/r/HasSubevent拜神
+學校
+
+	學校/r/HasSubevent上課
+	學校/r/HasSubevent讀書
+	學校/r/HasSubevent睡覺
+	學校/r/IsA地標
+	學校/r/MadeOf學生
+	學校/r/MadeOf老師
+	學校/r/HasSubevent交朋友
+	學校/r/HasSubevent看書
+	學校/r/Desires學生
+	學校/r/HasSubevent考試
+	學生/r/PartOf學校
+	學校/r/HasSubevent吃飯
+	學校/r/HasSubevent唸書
+	學校/r/HasSubevent打球
+	學校/r/HasSubevent念書
+	學校/r/HasSubevent運動
+	學校/r/MadeOf校長
+	學校/r/HasSubevent學習
+	學校/r/HasSubevent翹課
+	學校/r/MadeOf教室
+高中
+
+	高中/r/TranslationOfhigh school
+	高中生/r/Desires考試
+	高中/r/HasProperty很棒的
+	高中/r/HasProperty有回憶的
+	高中/r/HasProperty不錯
+	高中/r/Desires畢業
+	家齊女中/r/PartOf高中
+	高中/r/CausesDesire重來一次
+	高中/r/SymbolOf辛苦
+	國中生/r/Desires高中
+	讀書/r/MotivatedByGoal高中
+	高中/r/Desires被退學
+	手機/r/PartOf高中
+	中正高中/r/SymbolOf高中
+家
+
+	家/r/HasSubevent睡覺
+	家/r/HasSubevent看電視
+	家/r/HasSubevent吃飯
+	家裡/r/HasSubevent看電視
+	沙發/r/IsA家具
+	桌子/r/IsA家具
+	家裡/r/HasSubevent睡覺
+	椅子/r/IsA家具
+	家/r/HasSubevent看書
+	家/r/IsA避風港
+	家/r/HasSubevent玩電腦
+	家/r/HasSubevent上網
+	家裡/r/HasSubevent吃飯
+	家庭/r/MadeOf家人
+	家/r/HasSubevent打電腦
+	房子/r/PartOf家
+商店
+
+	商店/r/IsA地標
+	商店/r/HasSubevent買飲料
+	商店/r/HasSubevent買東西
+	商店/r/HasSubevent花錢
+	商店/r/HasSubevent逛
+	便利商店/r/IsA商店
+	商店/r/TranslationOfshop
+	商店/r/TranslationOfstore
+	商店/r/Desires生意很好
+	商店/r/HasSubevent借同學錢
+	商店/r/Desires倒閉
+	商店/r/MadeOf股東
+	商店/r/MadeOf商品
+	商店/r/HasSubevent大包小包
+	商店/r/Desires多做宣傳
+	商店/r/Desires考生
+	商店/r/Causes路人
+	商店/r/Causes邊際效益
+	商店/r/HasSubevent買零食
+	商店/r/CapableOf宣傳
+	商店/r/HasSubevent只逛不買
+銀行
+
+	銀行/r/UsedFor存錢
+	銀行/r/CapableOf存錢
+	銀行/r/Desires搶匪
+	錢/r/PartOf銀行
+	銀行/r/HasSubevent領錢
+	銀行/r/HasSubevent存錢
+	銀行/r/Desires錢
+	銀行/r/HasProperty借錢
+	銀行/r/UsedFor賺錢
+	提款卡/r/PartOf銀行
+	鈔票/r/PartOf銀行
+	銀行/r/HasSubevent繳費
+	銀行/r/HasProperty存錢
+	銀行/r/CapableOf貸款
+	銀行/r/MadeOf水泥
+	銀行/r/MadeOf磚塊
+	銀行/r/CapableOf匯款
+	銀行/r/UsedFor洗錢
+	卡奴/r/Desires銀行
+	銀行/r/Desires沒錢
+	銀行/r/CapableOf理財
+	銀行/r/UsedFor中大樂透
+	銀行/r/UsedFor領錢
+	銀行/r/PartOf錢
+	鈔票/r/SymbolOf銀行
+	銀行/r/CapableOf領錢
+糖果店
+
+	糖果店/r/Causes棒棒糖
+服飾店
+
+	衣服/r/PartOf服飾店
+	服飾店店長/r/Desires很多客人
+	服飾店店長/r/Desires賺錢
+	服飾店店長/r/Desires換新裝
+便利商店
+
+	便利商店/r/IsA地標
+	便利商店/r/HasSubevent買飲料
+	便利商店/r/HasSubevent買東西
+	便利商店/r/HasSubevent買雜誌
+	便利商店/r/IsA黑店
+	便利商店/r/HasSubevent看雜誌
+	便利商店/r/IsA商店
+	寄包裹/r/CausesDesire便利商店
+	塑膠袋/r/PartOf便利商店
+百貨公司
+
+	百貨公司/r/IsA地標
+	百貨公司/r/HasSubevent買東西
+	百貨公司/r/HasSubevent買衣服
+	百貨公司/r/HasSubevent逛街
+	百貨公司/r/HasSubevent購物
+	百貨公司/r/HasSubevent買書
+	百貨公司/r/HasSubevent買衣
+	百貨公司/r/HasSubevent吃飯
+	百貨公司/r/HasSubevent看電影
+	百貨公司/r/HasSubevent買褲
+	百貨公司/r/HasSubevent吃東西
+藥局
+
+	藥局/r/Desires藥師
+	藥局/r/Causes藍色小藥丸
+	藥局/r/Desires賣營養食品
+	藥局/r/IsA連鎖店
+	藥局/r/Desires賣藥
+跳蚤市場
+
+花店
+
+	花店生意好/r/HasSubevent情人節
+	花店老闆/r/CapableOf澆花
+雜貨店
+
+	雜貨店/r/Desires搶匪
+	運動飲料/r/PartOf雜貨店
+菜市場
+
+	菜市場/r/HasSubevent殺價
+	菜市場/r/HasSubevent買豬肉
+	菜市場/r/HasSubevent買菜
+	菜市場/r/HasSubevent買肉
+	菜市場/r/HasSubevent買空心菜
+	菜市場/r/HasSubevent賣菜
+	菜市場/r/HasSubevent遇到鄰居
+魚市場
+
+	築地/r/IsA魚市場
+	海鮮/r/PartOf魚市場
+	南寮/r/IsA魚市場
+	東港/r/IsA魚市場
+美食街
+
+	美食街/r/TranslationOffood court
+	夜市/r/IsA美食街
+家具店
+
+	床墊/r/PartOf家具店
+	床架/r/PartOf家具店
+加油站
+
+	加油站/r/IsA場所
+	加油站/r/IsA建築物
+	加油站/r/IsA地標
+	油/r/PartOf加油站
+	加油站/r/TranslationOfgas station
+	加油站/r/TranslationOfpetrol station
+	加油站/r/Desires倒閉
+	加油站/r/IsA營利事業
+	加油站/r/IsA設施
+	加油站/r/CapableOf爆炸
+	加油站/r/CapableOf有車
+	加油站/r/IsA營利設施
+	加油站/r/IsA連鎖店
+	加油站/r/IsA便民設施
+	加油站/r/Desires火
+	加油站/r/CapableOf加油
+	加油站/r/CapableOf有廁所
+健身房
+
+	健身房/r/TranslationOfgym
+	健身房/r/HasSubevent健身
+	健身房/r/HasSubevent跑步
+	健身房/r/HasSubevent舉啞鈴
+	健身房/r/UsedFor健身
+	健身房/r/UsedFor減肥
+	健身房/r/Causes運動
+	健身房/r/HasSubevent運動
+	健身房/r/UsedFor運動
+	健身房/r/HasSubevent舉重
+	跑步機/r/PartOf健身房
+游泳池
+
+	游泳池/r/UsedFor游泳
+	游泳池/r/HasSubevent游泳
+	游泳池/r/MadeOf水
+	游泳池/r/CausesDesire游泳
+	游泳池/r/HasSubevent游自由式
+	游泳池/r/CapableOf游泳
+	游泳池/r/TranslationOfswim pool
+	游泳池/r/HasSubevent游蛙式
+	游泳池/r/MadeOf土地
+	游泳池/r/HasSubevent看正妹
+五金行
+
+	開罐器/r/PartOf五金行
+	五金行/r/IsA連鎖店
+網咖
+
+	網咖/r/HasSubevent上網
+	網咖/r/HasSubevent玩電腦
+	網咖/r/MadeOf電腦
+	網咖/r/HasSubevent打電動
+	網咖/r/Causes沉迷
+	網咖/r/UsedFor上網
+	網咖/r/Causes玩電腦
+	網咖/r/TranslationOfinternet cafe
+	網咖/r/MadeOf阿宅
+	網咖/r/Causes上網
+	網咖/r/MadeOf咖啡
+	網咖/r/HasSubevent玩線上遊戲
+	網咖/r/HasSubevent看線上小說
+	網咖/r/Causes被爸爸罵
+	網咖/r/Causes犯罪
+	網咖/r/MadeOf台客
+	網咖/r/MadeOf網路
+珠寶店
+
+洗衣店
+
+	洗衣店/r/CapableOf洗衣服
+購物商場
+
+寵物店
+
+	寵物店/r/IsA地標
+	寵物店/r/MadeOf老鼠
+	賣寵物/r/HasSubevent寵物店
+	寵物店/r/Desires幫寵物美容
+	寵物店/r/Desires賣寵物用品
+	寵物店/r/Desires賣寵物玩具
+	賣飼料/r/HasSubevent寵物店
+	寵物店/r/IsA連鎖店
+	寵物店/r/HasSubevent看寵物鼠
+理髮店
+
+	理髮店/r/Causes洗頭
+體育用品店
+
+玩具店
+
+機場
+
+	機場/r/IsA地標
+	機場/r/Causes噪音
+	機場/r/Causes人潮
+	機場/r/TranslationOfairport
+	機場/r/HasSubevent買機票跟保險
+	機場/r/HasSubevent兌換外幣
+	機場/r/HasSubevent發呆
+	機場/r/HasSubevent逛免稅商店
+	機場/r/HasSubevent等候登機
+	機場/r/HasSubevent去免稅店
+	機場/r/HasSubevent吃東西
+	機場/r/Causes飛機
+旅館
+
+	旅館/r/HasSubevent睡覺
+	旅館/r/HasSubevent看電視
+	旅館/r/HasSubevent洗澡
+	旅館/r/HasSubevent休息
+	旅館/r/HasSubevent吃飯
+	廁所/r/PartOf旅館
+	旅館/r/TranslationOfhotel
+	旅館/r/HasSubevent檢查針孔
+	旅館/r/HasSubevent想事情
+	旅館/r/UsedFor累
+	旅館/r/HasSubevent吹冷氣
+	旅館/r/HasSubevent在床上跳
+	旅館/r/HasSubevent洗按摩浴缸
+	旅館/r/IsA行館
+	旅館/r/HasSubevent享受
+	旅館/r/HasSubevent放鬆
+	客房/r/IsA旅館
+公車站
+
+	公車站/r/IsA地標
+	公車站/r/MotivatedByGoal等公車
+	公車站/r/MotivatedByGoal搭公車
+	公車站/r/MotivatedByGoal乘客建的
+	公車站/r/MotivatedByGoal便民
+	公車站/r/MotivatedByGoal方便
+	公車站牌/r/IsA地標
+公路
+
+	公路/r/TranslationOfhighway
+	公路/r/TranslationOfroad
+	公路/r/TranslationOfyuan shu chinese style name
+	公路/r/MadeOf水泥
+	公路/r/IsA交通設施
+	公路車/r/CapableOf跑
+旅館
+
+	旅館/r/HasSubevent睡覺
+	旅館/r/HasSubevent看電視
+	旅館/r/HasSubevent洗澡
+	旅館/r/HasSubevent休息
+	旅館/r/HasSubevent吃飯
+	廁所/r/PartOf旅館
+	旅館/r/TranslationOfhotel
+	旅館/r/HasSubevent檢查針孔
+	旅館/r/HasSubevent想事情
+	旅館/r/UsedFor累
+	旅館/r/HasSubevent吹冷氣
+	旅館/r/HasSubevent在床上跳
+	旅館/r/HasSubevent洗按摩浴缸
+	旅館/r/IsA行館
+	旅館/r/HasSubevent享受
+	旅館/r/HasSubevent放鬆
+	客房/r/IsA旅館
+地鐵
+
+	地鐵/r/IsA電車
+計程車
+
+	黃色/r/SymbolOf計程車
+	計程車/r/UsedFor下雨
+	計程車/r/CapableOf黃色的
+	計程車/r/IsA交通工具
+	計程車/r/CapableOf載你
+	計程車/r/HasSubevent黃色
+	計程車/r/IsA車
+	計程車/r/UsedFor回家
+	開車/r/Desires計程車
+	計程車/r/TranslationOftaxi
+	計程車/r/TranslationOfcab
+	騎機車/r/Desires計程車
+	計程車/r/Causes車禍
+	計程車/r/CapableOf載客人
+	計程車/r/IsA工具
+	計程車/r/CapableOf是黃色的
+	計程車/r/IsA行業
+	中油/r/Desires計程車
+	計程車/r/CapableOf在馬路上跑
+	計程車/r/CapableOf有司機
+	計程車/r/CapableOf載人
+	計程車/r/IsA職業
+	計程車/r/Causes交通罰單
+	計程車/r/UsedFor出門
+	計程車/r/CapableOf跳表
+	計程車/r/MadeOf鐵
+	計程車/r/UsedFor趕時間
+	計程車/r/Causes超速
+火車站
+	火車站/r/IsA地標
+	火車站/r/HasSubevent等火車
+	火車站/r/HasSubevent坐火車
+	火車站/r/HasSubevent買車票
+	火車站/r/HasSubevent等人
+	火車站/r/TranslationOfrailway station
+	火車站/r/TranslationOftrain station
+	火車站/r/MotivatedByGoal坐火車
+	火車站/r/HasSubevent上廁所
+	火車站/r/HasSubevent拍火車
+	火車站/r/HasSubevent照像
+	新竹火車站/r/IsA火車站
+	火車站/r/MotivatedByGoal搭火車
