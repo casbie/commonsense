@@ -62,7 +62,7 @@ def run(stc):
 	[stc_map,stc_order]=do_pos(surfaceText)
 	
 	template=[]
-	stc_sp=stc[2].split(' ')
+	stc_sp=stc[2].replace(u'，',' ').split(' ')
 	for i in range(0,len(stc_sp)):
 		if '[' not in stc_sp[i]:
 			template.append(stc_sp[i])
