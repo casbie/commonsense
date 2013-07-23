@@ -4,6 +4,35 @@ import json
 import csv
 import sys
 
+#the template for all filter
+def filter_temp(start,end):
+	start_wrong=1
+	end_wrong=1
+	for tok in start:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		#check the pos tag
+
+	for tok in end:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		#check the pos tag
+	
+	if start_wrong==1 or end_wrong==1:
+		return 1
+	else:
+		return 0
+
 #rule1: no verb in start position
 #rule2: no Nc, Nd in start position
 #rule3: no non-verb in end position
@@ -103,36 +132,181 @@ def filter_HasProperty(start,end):
 		return 0
 
 def filter_HasSubevent(start,end):
-	return 1
+	start_wrong=1
+	end_wrong=1
+	for tok in start:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		if pos[0]=='V' and pos[1]!='H':
+			start_wrong=0
+			break
+
+	for tok in end:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		if pos[0]=='V' and pos[1]!='H':
+			end_wrong=0
+			break
+	
+	if start_wrong==1 or end_wrong==1:
+		return 1
+	else:
+		return 0
+
+#same rule as HasSubevent
+def filter_HasFirstSubevent(start,end):
+	result=filter_HasSubevent(start,end)
+	return result
 
 def filter_AtLocation(start,end):
-	return 1
+	start_wrong=1
+	end_wrong=1
+	for tok in start:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		if pos[0]=='N':
+			start_wrong=0
+			break
 
+	for tok in end:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		if pos[0]=='N':
+			end_wrong=0
+			break
+	
+	if start_wrong==1 or end_wrong==1:
+		return 1
+	else:
+		return 0
+
+#same rule as UsedFor
 def filter_CausesDesire(start,end):
-	return 1
+	result=filter_UsedFor(start,end)
+	return result
 
 def filter_NotDesires(start,end):
-	return 1
+	start_wrong=1
+	end_wrong=0
+	for tok in start:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		if pos[0]=='N':
+			start_wrong=0
+			break
+
+	for tok in end:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+	
+	if start_wrong==1 or end_wrong==1:
+		return 1
+	else:
+		return 0
+
+#same rule as NotDesires
+def filter_Desires(start,end):
+	result=filter_NotDesires(start,end)
+	return result
 
 def filter_UsedFor(start,end):
-	return 1
+	start_wrong=1
+	end_wrong=1
+	for tok in start:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		if pos[0]=='N':
+			start_wrong=0
+			break
 
-def filter_Causes(start,end):
-	return 1
+	for tok in end:
+		tmp=tok.split('_')
+		if len(tmp)==2:
+			[word,pos]=tmp
+		else:
+			[word,pos]=[tmp[0],tmp[1]+'_'+tmp[2]]
+		if pos=='DM' or pos=='-None-':
+			return -1
+		if pos[0]=='V' and pos[1]!='H':
+			end_wrong=0
+			break
 
-def filter_HasSubevent(start,end):
-	return 1
+	if start_wrong==1 or end_wrong==1:
+		return 1
+	else:
+		return 0
 
+#same rule as HasSubevent
+def filter_Causes(start,end,template):
+	result=filter_HasSubevent(start,end)
+	return result
+
+#same rule as AtLocation
 def filter_PartOf(start,end):
-	return 1
+	result=filter_AtLocation(start,end)
+	return result
 
+#both noun or both verb
+#(AtLocation) (HasSubevent)
 def filter_SymbolOf(start,end):
-	return 1
+	result1=filter_AtLocation(start,end)
+	result2=filter_HasSubevent(start,end)
+	if result1==0 or result2==0:
+		return 0
+	else:
+		return 1
 
+#same rule as HasSubevent
 def filter_MotivatedByGoal(start,end):
-	return 1
+	result=filter_HasSubevent(start,end)
+	return result
 
-def filter_relation(relation,start,end):
+#same rule as AtLocation
+def filter_IsA(start,end):
+	result=filter_AtLocation(start,end)
+	return result
+
+#same rule as AtLocation
+def filter_MadeOf(start,end):
+	result=filter_AtLocation(start,end)
+	return result
+
+def filter_relation(relation,start,end,template):
 	if relation == 'CapableOf':
 		result=filter_CapableOf(start,end)
 	elif relation == 'HasSubevent':
@@ -148,11 +322,11 @@ def filter_relation(relation,start,end):
 	elif relation == 'UsedFor':
 		result=filter_UsedFor(start,end)
 	elif relation == 'Causes':
-		result=filter_UsedFor(Start,end)
+		result=filter_Causes(start,end,template)
 	elif relation == 'PartOf':
 		result=filter_PartOf(start,end)
 	elif relation == 'Desires':
-		result=filter_PartOf(start,end)
+		result=filter_Desires(start,end)
 	elif relation == 'IsA':
 		result=filter_IsA(start,end)
 	elif relation == 'HasFirstSubevent':
@@ -166,31 +340,3 @@ def filter_relation(relation,start,end):
 	else:
 		result=1
 	return result
-
-def load_file(relation):
-	fp_in=open('../output/'+relation+'_pos.txt')
-	json_file=json.load(fp_in)
-	rows=[]
-	for data in json_file:
-		result=filter_relation(all,data['start'],data['end'],data['template'])
-		if result == 1:
-			row=[]
-			for tok in data['start']:
-				row.append(tok.encode('utf-8'))
-			row.append(data['template'].encode('utf-8'))
-			for tok in data['end']:
-				row.append(tok.encode('utf-8'))
-			rows.append(row)
-	return rows
-
-def load_stc_file(relation):
-	fp_in=open(relation+'_posstc.txt')
-	json_file=json.load(fp_in)
-	rows=[]
-	for data in json_file:
-		result=filter_relation('all',data['sentence'])
-		row=[]
-		for tok in data['sentence']:
-			row.append(tok.encode('utf-8'))
-		rows.append(row)
-	return rows
